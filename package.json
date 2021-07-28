@@ -4,7 +4,7 @@
   "scripts": {
     "build:tailwind": "tailwind build -i styles/index.css -o styles/tailwind.css",
     "start:dev": "next dev",
-    "start": "next start -p $PORT",
+    "start": "node server.js",
     "build": "next build",
     "type-check": "tsc --pretty --noEmit",
     "format": "prettier --write .",
@@ -23,7 +23,8 @@
     ]
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.15.3",
+    "@fortawesome/fontawesome-free": "5.15.3",
+    "express": "4.17.1",
     "next": "latest",
     "next-pwa": "5.2.24",
     "react": "17.0.2",
