@@ -73,8 +73,8 @@ export const Home = (): JSX.Element => (
         </div>
         <div className="w-4/6 lg:w-3/6 mx-auto text-center">
           <span className="text-lg md:text-2xl text-white text-center">
-            Polis community-driven sidechain focused on creating tools to start
-            accepting cryptocurrencies easily and securely.
+                Polis is a community-driven sidechain focused on creating tools to
+                start accepting cryptocurrencies easily and securely.
           </span>
         </div>
         <div className="w-3/5 mx-auto">

@@ -21,7 +21,7 @@ export default function Footer(): JSX.Element {
                 </a>
               </div>
               <div className="text-sm text-gray-400 ml-2 mt-4">
-                Polis community-driven sidechain focused on creating tools to
+                Polis is a community-driven sidechain focused on creating tools to
                 start accepting cryptocurrencies easily and securely.
               </div>
               <div className="flex space-x-6 md:order-2 ml-2 mt-4 ">
