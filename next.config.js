@@ -5,9 +5,10 @@ module.exports = withPWA({
   pwa: {
     dest: 'public',
     runtimeCaching,
+    register: true,
+    sw: '/sw.js'
   },
   images: {
     domains: ['polis.tech'],
   },
-  reactStrictMode: true,
 })

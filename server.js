@@ -1,6 +1,5 @@
 const express = require('express')
 const next = require('next')
-const path = require('path')
 const url = require('url')
 const cluster = require('cluster')
 const numCPUs = require('os').cpus().length
