@@ -2,6 +2,7 @@
   "name": "polis-landing",
   "license": "MIT",
   "scripts": {
+    "build:tailwind": "tailwind build -i styles/index.css -o styles/tailwind.css",
     "start:dev": "next dev",
     "start": "next start -p $PORT",
     "build": "next build",
@@ -22,6 +23,7 @@
     ]
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
     "next": "latest",
     "next-pwa": "5.2.24",
     "react": "17.0.2",

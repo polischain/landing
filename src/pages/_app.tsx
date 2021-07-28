@@ -1,9 +1,15 @@
-import 'tailwindcss/tailwind.css'
+import "../../styles/tailwind.css";
+import "../../styles/index.css";
+import "@fortawesome/fontawesome-free/css/all.min.css";
+
 import Head from 'next/head'
+import React from 'react'
 
 function MyApp({ Component, pageProps }) {
+  const Layout = Component.layout || (({ children }) => <>{children}</>)
+
   return (
-    <>
+    <React.Fragment>
       <Head>
         <meta charSet="utf-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
@@ -57,7 +63,11 @@ function MyApp({ Component, pageProps }) {
           content="@PolisChain"
         />
         <meta key="og:type" property="og:type" content="website" />
-        <meta key="og:site_name" property="og:site_name" content="Polis Chain" />
+        <meta
+          key="og:site_name"
+          property="og:site_name"
+          content="Polis Chain"
+        />
         <meta key="og:url" property="og:url" content="https://polis.tech" />
         <meta
           key="og:image"
@@ -70,8 +80,10 @@ function MyApp({ Component, pageProps }) {
           content="Join the payments revolution with our EVM powered network and community"
         />
       </Head>
-      <Component {...pageProps} />
-    </>
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
+    </React.Fragment>
   )
 }
 

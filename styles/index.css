@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Century Gothic';
+    src: url('fonts/gothic.ttf');
+}
+
+@font-face {
+    font-family: 'All Round Gothic';
+    src: url('./fonts/all_round_gothic.ttf');
+}
+
+body{
+    font-family: "Century Gothic", serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'All Round Gothic', serif;
+}
