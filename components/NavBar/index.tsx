@@ -46,7 +46,7 @@ export default function Navbar(): JSX.Element {
                 </a>
               </li>
               <li className="flex items-center text-white text-md my-3">
-                <a href="/about">
+                <a href="#about">
                   <span className="inline-block ml-4">About</span>
                 </a>
               </li>

@@ -1,5 +1,6 @@
-import '../../styles/tailwind.css'
-import '../../styles/index.css'
+import '../styles/tailwind.css'
+import '../styles/index.css'
+import '../styles/styles.css'
 import '@fortawesome/fontawesome-free/css/all.min.css'
 
 import Head from 'next/head'

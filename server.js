@@ -38,13 +38,6 @@ if (!dev && cluster.isMaster) {
       })
     }
 
-    server.use(
-      '/static',
-      express.static(path.join(__dirname, 'static'), {
-        maxAge: dev ? '0' : '365d',
-      })
-    )
-
     // Default catch-all renders Next app
     server.get('*', (req, res) => {
       res.set({
