@@ -7,7 +7,6 @@ import Head from 'next/head'
 import React from 'react'
 
 function MyApp({ Component, pageProps }): JSX.Element {
-  const Layout = Component.layout || (({ children }) => <>{children}</>)
 
   return (
     <React.Fragment>
@@ -37,9 +36,8 @@ function MyApp({ Component, pageProps }): JSX.Element {
 
         <meta name="format-detection" content="telephone=no" />
         <meta name="mobile-web-app-capable" content="yes" />
-        <meta name="msapplication-config" content="/browserconfig.xml" />
         <meta name="msapplication-tap-highlight" content="no" />
-        <meta name="theme-color" content="# asd" />
+        <meta name="theme-color" content="#3E4A94" />
 
         <meta key="twitter:card" name="twitter:card" content="app" />
         <meta key="twitter:title" name="twitter:title" content="Polis Chain" />
@@ -56,7 +54,7 @@ function MyApp({ Component, pageProps }): JSX.Element {
         <meta
           key="twitter:image"
           name="twitter:image"
-          content="https://polis.tech/icon-192x192.png"
+          content="https://polis.tech/manifest-icon-192.png"
         />
         <meta
           key="twitter:creator"
@@ -73,7 +71,7 @@ function MyApp({ Component, pageProps }): JSX.Element {
         <meta
           key="og:image"
           property="og:image"
-          content="https://polis.tech/apple-touch-icon.png"
+          content="https://polis.tech/apple-icon-180.png"
         />
         <meta
           key="og:description"
@@ -81,9 +79,7 @@ function MyApp({ Component, pageProps }): JSX.Element {
           content="Join the payments revolution with our EVM powered network and community"
         />
       </Head>
-      <Layout>
         <Component {...pageProps} />
-      </Layout>
     </React.Fragment>
   )
 }
