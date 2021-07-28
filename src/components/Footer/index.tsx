@@ -99,7 +99,7 @@ export default function Footer(): JSX.Element {
                 </li>
                 <li>
                   <a
-                    href="https://discord.gg/CD2YdZzb7Z"
+                    href="https://discord.gg/MjNZDNj"
                     className="text-base text-gray-400 hover:text-white"
                   >
                     Discord

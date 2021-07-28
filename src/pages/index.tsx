@@ -72,220 +72,163 @@ export const Home = (): JSX.Element => (
           </h1>
         </div>
       </div>
-      <div className="w-full bg-dark">
-        <div className="mx-auto px-4 pt-10 sm:pt-28 bg-dark">
+      <div id="start" className="w-full bg-dark">
+        <div className="max-w-3xl mx-auto px-4 pt-10 sm:pt-28 pb-4 bg-dark">
           <h1 className="text-2xl sm:text-4xl font-semibold text-white text-center">
-            TODO Subtitle
+            Explore the main tools on the network.
           </h1>
         </div>
-        <div className="w-full mx-auto grid grid-flow-col lg:grid-cols-4 lg:grid-rows-1 grid-rows-2 grid-cols-2 my-5 lg:my-20 gap-5 lg:gap-10 px-10 pt-20">
-          <div className="flex flex-row">
-            <div className="flow-root bg-dark_contrast rounded-lg px-8 pb-8">
-              <div className="-mt-16 mx-auto text-center">
-                <div
-                  className="inline-flex items-center justify-center rounded-full shadow-lg relative overflow-hidden bg-primary"
-                  style={{ width: '123px', height: '123px' }}
-                >
-                  IMG
-                </div>{' '}
-                <h3 className="mt-2 text-lg font-semibold text-white tracking-tight">
-                  Wallet
-                </h3>
-                <p className="mt-2 text-sm text-gray-500">
-                  Download the official wallet to help you get into the
-                  ecosystem
-                </p>
-                <div className="rounded-md shadow-lg mt-4">
-                  <a
-                    href="#"
-                    className="bg-gradient-to-r from-secondary to-primary text-white w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md"
+        <div className="w-5/6 mx-auto">
+          <div className="flex flex-row space-x-6 items-center px-10 pt-20 pb-8 overflow-x-scroll no-scrollbar">
+            <div className="flex flex-row space-x-6 lg:pl-10">
+              <div
+                className="flow-root bg-dark_contrast rounded-lg px-8 pb-8"
+                style={{ width: '281px', height: '250px' }}
+              >
+                <div className="-mt-16 mx-auto text-center">
+                  <div
+                    className="inline-flex items-center justify-center rounded-full shadow-lg relative overflow-hidden"
+                    style={{
+                      backgroundImage:
+                        'linear-gradient(224.43deg, rgb(13, 4, 21) -16.69%, rgb(27, 33, 82) 86.36%)',
+                      backgroundPosition: 'center bottom',
+                      backgroundSize: 'contain',
+                      backgroundRepeat: 'no-repeat',
+                      width: '123px',
+                      height: '123px',
+                    }}
                   >
-                    Download Wallet
-                  </a>
+                    <i className="text-white fas fa-3x fa-gifts" />
+                  </div>
+                  <h3 className="mt-2 text-lg font-semibold text-white tracking-tight">
+                    Shop
+                  </h3>
+                  <p className="mt-2 text-sm text-gray-500">
+                    Enter the self-service shop and access hundresds of
+                    products.
+                  </p>
+                  <div className="rounded-md shadow-lg mt-4">
+                    <a
+                      href="https://shop.polispay.com"
+                      className="bg-gradient-to-r from-secondary to-primary text-white w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md"
+                    >
+                      Explore
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div className="flex flex-row">
-            <div className="flow-root bg-dark_contrast rounded-lg px-8 pb-8">
-              <div className="-mt-16 mx-auto text-center">
-                <div
-                  className="inline-flex items-center justify-center rounded-full shadow-lg relative overflow-hidden bg-primary"
-                  style={{ width: '123px', height: '123px' }}
-                >
-                  IMG
-                </div>{' '}
-                <h3 className="mt-2 text-lg font-semibold text-white tracking-tight">
-                  Shop
-                </h3>
-                <p className="mt-2 text-sm text-gray-500">
-                  Enter the shop and purchase thousands of products
-                </p>
-                <div className="rounded-md shadow-lg mt-4">
-                  <a
-                    href="#"
-                    className="bg-gradient-to-r from-secondary to-primary text-white w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md"
+            <div className="flex flex-row space-x-6">
+              <div
+                className="flow-root bg-dark_contrast rounded-lg px-8 pb-8"
+                style={{ width: '281px', height: '250px' }}
+              >
+                <div className="-mt-16 mx-auto text-center">
+                  <div
+                    className="inline-flex items-center justify-center rounded-full shadow-lg relative overflow-hidden"
+                    style={{
+                      backgroundImage:
+                        'linear-gradient(224.43deg, rgb(13, 4, 21) -16.69%, rgb(27, 33, 82) 86.36%)',
+                      backgroundPosition: 'center bottom',
+                      backgroundSize: 'contain',
+                      backgroundRepeat: 'no-repeat',
+                      width: '123px',
+                      height: '123px',
+                    }}
                   >
-                    Explore Shop
-                  </a>
+                    <i className="text-white fas fa-3x fa-wallet" />
+                  </div>
+                  <h3 className="mt-2 text-lg font-semibold text-white tracking-tight">
+                    Wallet
+                  </h3>
+                  <p className="mt-2 text-sm text-gray-500">
+                    Get the mobile wallet to store your tokens safely.
+                  </p>
+                  <div className="rounded-md shadow-lg mt-4">
+                    <a
+                      href="https://polispay.com"
+                      className="bg-gradient-to-r from-secondary to-primary text-white w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md"
+                    >
+                      Download
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div className="flex flex-row">
-            <div className="flow-root bg-dark_contrast rounded-lg px-8 pb-8">
-              <div className="-mt-16 mx-auto text-center">
-                <div
-                  className="inline-flex items-center justify-center rounded-full shadow-lg relative overflow-hidden bg-primary"
-                  style={{ width: '123px', height: '123px' }}
-                >
-                  IMG
-                </div>{' '}
-                <h3 className="mt-2 text-lg font-semibold text-white tracking-tight">
-                  Stake
-                </h3>
-                <p className="mt-2 text-sm text-gray-500">
-                  Help candidates and delegate your coins to support the network
-                </p>
-                <div className="rounded-md shadow-lg mt-4">
-                  <a
-                    href="#"
-                    className="bg-gradient-to-r from-secondary to-primary text-white w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md"
+            <div className="flex flex-row space-x-6">
+              <div
+                className="flow-root bg-dark_contrast rounded-lg px-8 pb-8"
+                style={{ width: '281px', height: '250px' }}
+              >
+                <div className="-mt-16 mx-auto text-center">
+                  <div
+                    className="inline-flex items-center justify-center rounded-full shadow-lg relative overflow-hidden"
+                    style={{
+                      backgroundImage:
+                        'linear-gradient(224.43deg, rgb(13, 4, 21) -16.69%, rgb(27, 33, 82) 86.36%)',
+                      backgroundPosition: 'center bottom',
+                      backgroundSize: 'contain',
+                      backgroundRepeat: 'no-repeat',
+                      width: '123px',
+                      height: '123px',
+                    }}
                   >
-                    Enter App
-                  </a>
+                    <i className="text-white fas fa-3x fa-cash-register" />
+                  </div>
+                  <h3 className="mt-2 text-lg font-semibold text-white tracking-tight">
+                    Point Of Sale
+                  </h3>
+                  <p className="mt-2 text-sm text-gray-500">
+                    Deploy your own Point-Of-Sale and start accepting tokens.
+                  </p>
+                  <div className="rounded-md shadow-lg mt-4">
+                    <a
+                      href="https://pos.polispay.com"
+                      className="bg-gradient-to-r from-secondary to-primary text-white w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md"
+                    >
+                      Deploy
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div className="flex flex-row">
-            <div className="flow-root bg-dark_contrast rounded-lg px-8 pb-8">
-              <div className="-mt-16 mx-auto text-center">
-                <div
-                  className="inline-flex items-center justify-center rounded-full shadow-lg relative overflow-hidden bg-primary"
-                  style={{ width: '123px', height: '123px' }}
-                >
-                  IMG
-                </div>
-                <h3 className="mt-2 text-lg font-semibold text-white tracking-tight">
-                  Merchants
-                </h3>
-                <p className="mt-2 text-sm text-gray-500">
-                  Deploy your own Point-of-Sale to accept tokens as a payment
-                </p>
-                <div className="rounded-md shadow-lg mt-4">
-                  <a
-                    href="#"
-                    className="bg-gradient-to-r from-secondary to-primary text-white w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md"
+            <div className="flex flex-row space-x-6">
+              <div
+                className="flow-root bg-dark_contrast rounded-lg px-8 pb-8"
+                style={{ width: '281px', height: '250px' }}
+              >
+                <div className="-mt-16 mx-auto text-center">
+                  <div
+                    className="inline-flex items-center justify-center rounded-full shadow-lg relative overflow-hidden"
+                    style={{
+                      backgroundImage:
+                        'linear-gradient(224.43deg, rgb(13, 4, 21) -16.69%, rgb(27, 33, 82) 86.36%)',
+                      backgroundPosition: 'center bottom',
+                      backgroundSize: 'contain',
+                      backgroundRepeat: 'no-repeat',
+                      width: '123px',
+                      height: '123px',
+                    }}
                   >
-                    Enter App
-                  </a>
+                    <i className="text-white fas fa-3x fa-coins" />
+                  </div>
+                  <h3 className="mt-2 text-lg font-semibold text-white tracking-tight">
+                    Stake
+                  </h3>
+                  <p className="mt-2 text-sm text-gray-500">
+                    Enter the the dApp and support the network with your tokens.
+                  </p>
+                  <div className="rounded-md shadow-lg mt-4">
+                    <a
+                      href="https://stake.polis.tech"
+                      className="bg-gradient-to-r from-secondary to-primary text-white w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md"
+                    >
+                      Enter
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-      <div className="w-full bg-dark">
-        <div className="mx-auto pb-4 bg-dark">
-          <h1 className="text-2xl sm:text-4xl font-semibold text-white text-center">
-            Partners
-          </h1>
-        </div>
-        <div className="max-w-6xl pt-10 pb-32 mx-auto">
-          <div className="grid grid-cols-2 lg:grid-cols-6 gap-6">
-            <a
-              href="https://yearn.finance/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div className="flex flex-row space-x-6">
-                <div className="flow-root rounded-lg mx-auto">
-                  <div className="mx-auto text-center">
-                    <span className="text-white">IMG</span>
-                    <p className="mt-2 text-base text-gray-500">
-                      Yearn Finance
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </a>
-            <a
-              href="https://cream.finance/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div className="flex flex-row space-x-6">
-                <div className="flow-root rounded-lg mx-auto">
-                  <div className="mx-auto text-center">
-                    <span className="text-white">IMG</span>
-                    <p className="mt-2 text-base text-gray-500">
-                      CREAM Finance
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </a>
-            <a
-              href="https://aave.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div className="flex flex-row space-x-6">
-                <div className="flow-root rounded-lg mx-auto">
-                  <div className="mx-auto text-center">
-                    <span className="text-white">IMG</span>
-                    <p className="mt-2 text-base text-gray-500">Aave</p>
-                  </div>
-                </div>
-              </div>
-            </a>
-            <a
-              href="https://pickle.finance/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div className="flex flex-row space-x-6">
-                <div className="flow-root rounded-lg mx-auto">
-                  <div className="mx-auto text-center">
-                    <span className="text-white">IMG</span>
-                    <p className="mt-2 text-base text-gray-500">
-                      Pickle Finance
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </a>
-            <a
-              href="https://akropolis.io/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div className="flex flex-row space-x-6">
-                <div className="flow-root rounded-lg mx-auto">
-                  <div className="mx-auto text-center">
-                    <span className="text-white">IMG</span>
-                    <p className="mt-2 text-base text-gray-500">Akropolis</p>
-                  </div>
-                </div>
-              </div>
-            </a>
-            <a
-              href="https://keep3r.network/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div className="flex flex-row space-x-6">
-                <div className="flow-root rounded-lg mx-auto">
-                  <div className="mx-auto text-center">
-                    <span className="text-white">IMG</span>
-                    <p className="mt-2 text-base text-gray-500">
-                      Keep3r Network
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </a>
           </div>
         </div>
       </div>
