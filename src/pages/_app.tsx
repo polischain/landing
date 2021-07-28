@@ -1,6 +1,6 @@
-import "../../styles/tailwind.css";
-import "../../styles/index.css";
-import "@fortawesome/fontawesome-free/css/all.min.css";
+import '../../styles/tailwind.css'
+import '../../styles/index.css'
+import '@fortawesome/fontawesome-free/css/all.min.css'
 
 import Head from 'next/head'
 import React from 'react'
