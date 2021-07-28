@@ -18,3 +18,11 @@ body{
 h1,h2,h3,h4,h5,h6{
     font-family: 'All Round Gothic', serif;
 }
+
+.hero-header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 11, 29, 0.7)), url('../public/img/hero.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}

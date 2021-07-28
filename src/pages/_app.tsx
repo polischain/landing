@@ -5,7 +5,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css'
 import Head from 'next/head'
 import React from 'react'
 
-function MyApp({ Component, pageProps }) {
+function MyApp({ Component, pageProps }): JSX.Element {
   const Layout = Component.layout || (({ children }) => <>{children}</>)
 
   return (

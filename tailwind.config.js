@@ -7,8 +7,11 @@ module.exports = {
     },
     extend: {
       colors: {
-        background: '#040815',
-        background_contrast: '#313131',
+        dark: '#040815',
+        dark_contrast_transparent: 'rgba(45,45,45,0.85)',
+        dark_contrast: 'rgb(45,45,45)',
+        primary: '#3E4A94',
+        secondary: '#518FCA',
       },
       boxShadow: {
         'blue-glow': '0px 57px 90px -47px rgba(39, 176, 230, 0.17)',
