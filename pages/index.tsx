@@ -66,13 +66,13 @@ export const Home = (): JSX.Element => (
         </div>
       </div>
       <div id="about" className="w-full bg-dark">
-        <div className="w-full mx-auto px-4 pt-10 sm:pt-28 pb-4">
+        <div className="w-full mx-auto px-4 pt-28 pb-4">
           <h1 className="text-2xl sm:text-4xl font-semibold text-white text-center">
             About
           </h1>
         </div>
         <div className="w-4/6 lg:w-3/6 mx-auto text-center">
-          <span className="text-lg md:text-2xl font-semibold text-white text-center">
+          <span className="text-lg md:text-2xl text-white text-center">
             Polis community-driven sidechain focused on creating tools to start
             accepting cryptocurrencies easily and securely.
           </span>
@@ -236,6 +236,106 @@ export const Home = (): JSX.Element => (
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+      <div id="social" className="w-full bg-dark">
+        <div className="max-w-3xl mx-auto px-4 pt-10 sm:pt-28 pb-4 bg-dark">
+          <h1 className="text-2xl sm:text-4xl font-semibold text-white text-center">
+            Build with a global community
+          </h1>
+        </div>
+        <div className="w-4/6 lg:w-3/6 mx-auto text-center">
+          <span className="text-lg md:text-2xl text-white text-center">
+            Join us to learn, chat, and help us build the future of payments.
+          </span>
+        </div>
+        <div className="w-full lg:w-3/5  xl:w-2/4 mx-auto">
+          <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 mt-10 justify-items-center">
+            <a
+              href="https://discord.gg/MjNZDNj"
+              className="hover:shadow-blue-glow"
+            >
+              <div
+                className="flow-root bg-gray-300 rounded-lg px-8 py-8"
+                style={{ width: '200px' }}
+              >
+                <div className="mx-auto text-center">
+                  <i
+                    style={{ color: '#7289da' }}
+                    className="fab fa-5x fa-discord"
+                  />
+                  <h3
+                    style={{ color: '#7289da' }}
+                    className="mt-2 text-3xl font-semibold text-white tracking-tight"
+                  >
+                    Discord
+                  </h3>
+                  <p
+                    style={{ color: '#7289da' }}
+                    className="mt-2 text-sm text-gray-500"
+                  >
+                    Join the conversation with the Polis community
+                  </p>
+                </div>
+              </div>
+            </a>
+            <a
+              href="https://t.me/PolisPayOfficial"
+              className="hover:shadow-blue-glow"
+            >
+              <div
+                className="flow-root bg-gray-300 rounded-lg px-8 py-8"
+                style={{ width: '200px' }}
+              >
+                <div className="mx-auto text-center">
+                  <i
+                    style={{ color: '#0088CC' }}
+                    className="text-white fab fa-5x fa-telegram"
+                  />
+                  <h3
+                    style={{ color: '#0088CC' }}
+                    className="mt-2 text-3xl font-semibold text-white tracking-tight"
+                  >
+                    Telegram
+                  </h3>
+                  <p
+                    style={{ color: '#0088CC' }}
+                    className="mt-2 text-sm text-gray-500"
+                  >
+                    Engage the conversation with the community
+                  </p>
+                </div>
+              </div>
+            </a>
+            <a
+              href="https://twitter.com/PolisChain"
+              className="hover:shadow-blue-glow"
+            >
+              <div
+                className="flow-root bg-gray-300 rounded-lg px-8 py-8"
+                style={{ width: '200px' }}
+              >
+                <div className="mx-auto text-center">
+                  <i
+                    style={{ color: '#1da1f2' }}
+                    className="text-white fab fa-5x fa-twitter"
+                  />
+                  <h3
+                    style={{ color: '#1da1f2' }}
+                    className="mt-2 text-3xl font-semibold text-white tracking-tight"
+                  >
+                    Twitter
+                  </h3>
+                  <p
+                    style={{ color: '#1da1f2' }}
+                    className="mt-2 text-sm text-gray-500"
+                  >
+                    Follow us on twitter to get the latest news
+                  </p>
+                </div>
+              </div>
+            </a>
           </div>
         </div>
       </div>
