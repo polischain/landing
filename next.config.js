@@ -3,10 +3,7 @@ const runtimeCaching = require('next-pwa/cache')
 
 module.exports = withPWA({
   pwa: {
-    dest: 'public',
-    runtimeCaching,
-    register: true,
-    sw: '/sw.js'
+    dest: 'public'
   },
   images: {
     domains: ['polis.tech'],
