@@ -23,41 +23,41 @@ export const Home = (): JSX.Element => (
             <div className="rounded-md shadow-lg">
               <a
                 href="#start"
-                className="bg-gradient-to-r from-secondary to-primary text-white w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md"
+                className="bg-contrast text-white w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md"
               >
                 Learn more
               </a>
             </div>
           </div>
           <div className="absolute w-5/6 left-1/2 transform -translate-x-1/2 grid grid-flow-col lg:grid-cols-4 lg:grid-rows-1 grid-rows-2 grid-cols-2 my-5 lg:my-20 gap-5 lg:gap-10">
-            <div className="text-center rounded-lg bg-dark_contrast_transparent shadow-blue-glow">
+            <div className="text-center rounded-lg bg-darkgrey bg-opacity-80">
               <div className="my-5 lg:my-10">
                 <p className="text-white text-2xl lg:text-4xl">$0.56</p>
-                <p className="text-gray-400 text-sm uppercase font-bold mt-1">
+                <p className="text-grey text-sm uppercase font-bold mt-1">
                   Price
                 </p>
               </div>
             </div>
-            <div className="text-center rounded-lg bg-dark_contrast_transparent shadow-blue-glow">
+            <div className="text-center rounded-lg bg-darkgrey bg-opacity-80">
               <div className="my-5 lg:my-10">
                 <p className="text-white text-2xl lg:text-4xl">12,493</p>
-                <p className="text-gray-400 text-sm uppercase font-bold mt-1">
+                <p className="text-grey text-sm uppercase font-bold mt-1">
                   Users
                 </p>
               </div>
             </div>
-            <div className="text-center rounded-lg bg-dark_contrast_transparent shadow-blue-glow">
+            <div className="text-center rounded-lg bg-darkgrey bg-opacity-80">
               <div className="my-5 lg:my-10">
                 <p className="text-white text-2xl lg:text-4xl">200,000</p>
-                <p className="text-gray-400 text-sm uppercase font-bold mt-1">
+                <p className="text-grey text-sm uppercase font-bold mt-1">
                   Transactions
                 </p>
               </div>
             </div>
-            <div className="text-center rounded-lg bg-dark_contrast_transparent shadow-blue-glow">
+            <div className="text-center rounded-lg bg-darkgrey bg-opacity-80">
               <div className="my-5 lg:my-10">
                 <p className="text-white text-2xl lg:text-4xl">545</p>
-                <p className="text-gray-400 text-sm uppercase font-bold mt-1">
+                <p className="text-grey text-sm uppercase font-bold mt-1">
                   Merchants
                 </p>
               </div>
@@ -73,14 +73,14 @@ export const Home = (): JSX.Element => (
         </div>
         <div className="w-4/6 lg:w-3/6 mx-auto text-center">
           <span className="text-lg md:text-2xl text-white text-center">
-                Polis is a community-driven sidechain focused on creating tools to
-                start accepting cryptocurrencies easily and securely.
+            Polis is a community-driven sidechain focused on creating tools to
+            start accepting cryptocurrencies easily and securely.
           </span>
         </div>
         <div className="w-3/5 mx-auto">
           <div className="grid grid-cols-1 gap-16 lg:grid-cols-2 mt-10 justify-items-center">
             <div
-              className="flow-root bg-dark_contrast_transparent rounded-lg px-8 py-8"
+              className="flow-root bg-darkgrey rounded-lg px-8 py-8"
               style={{ width: '300px' }}
             >
               <div className="mx-auto text-center">
@@ -88,13 +88,13 @@ export const Home = (): JSX.Element => (
                 <h3 className="mt-2 text-4xl font-semibold text-white tracking-tight">
                   Athene
                 </h3>
-                <p className="mt-2 text-base text-gray-500">
+                <p className="mt-2 text-base text-grey">
                   Production ready network
                 </p>
                 <div className="rounded-md shadow-lg mt-4">
                   <a
                     href="https://athene.polis.tech"
-                    className="bg-gradient-to-r from-secondary to-primary text-white w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md"
+                    className="bg-contrast text-white w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md"
                   >
                     Explore
                   </a>
@@ -102,7 +102,7 @@ export const Home = (): JSX.Element => (
               </div>
             </div>
             <div
-              className="flow-root bg-dark_contrast_transparent rounded-lg px-8 py-8"
+              className="flow-root bg-darkgrey rounded-lg px-8 py-8"
               style={{ width: '300px' }}
             >
               <div className="mx-auto text-center">
@@ -110,11 +110,11 @@ export const Home = (): JSX.Element => (
                 <h3 className="mt-2 text-4xl font-semibold text-white tracking-tight">
                   Sparta
                 </h3>
-                <p className="mt-2 text-base text-gray-500">Testing network</p>
+                <p className="mt-2 text-base text-grey">Testing network</p>
                 <div className="rounded-md shadow-lg mt-4">
                   <a
                     href="https://sparta.polis.tech"
-                    className="bg-gradient-to-r from-secondary to-primary text-white w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md"
+                    className="bg-contrast text-white w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md"
                   >
                     Explore
                   </a>
@@ -134,7 +134,7 @@ export const Home = (): JSX.Element => (
           <div className="flex flex-row space-x-6 items-center px-3 md:px-10 pt-20 pb-8 overflow-x-scroll no-scrollbar">
             <div className="flex flex-row space-x-6 lg:pl-10">
               <div
-                className="flow-root bg-dark_contrast rounded-lg px-8 pb-8"
+                className="flow-root bg-darkgrey rounded-lg px-8 pb-8"
                 style={{ width: '281px', height: '250px' }}
               >
                 <div className="-mt-16 mx-auto text-center">
@@ -144,7 +144,7 @@ export const Home = (): JSX.Element => (
                   <h3 className="mt-2 text-lg font-semibold text-white tracking-tight">
                     Shop
                   </h3>
-                  <p className="mt-2 text-sm text-gray-500">
+                  <p className="mt-2 text-sm text-grey">
                     Enter the self-service shop and access hundreds of products.
                   </p>
                   <div className="rounded-md shadow-lg mt-4">
@@ -160,7 +160,7 @@ export const Home = (): JSX.Element => (
             </div>
             <div className="flex flex-row space-x-6">
               <div
-                className="flow-root bg-dark_contrast rounded-lg px-8 pb-8"
+                className="flow-root bg-darkgrey rounded-lg px-8 pb-8"
                 style={{ width: '281px', height: '250px' }}
               >
                 <div className="-mt-16 mx-auto text-center">
@@ -170,7 +170,7 @@ export const Home = (): JSX.Element => (
                   <h3 className="mt-2 text-lg font-semibold text-white tracking-tight">
                     Wallet
                   </h3>
-                  <p className="mt-2 text-sm text-gray-500">
+                  <p className="mt-2 text-sm text-grey">
                     Get the mobile wallet to store your tokens safely.
                   </p>
                   <div className="rounded-md shadow-lg mt-4">
@@ -186,7 +186,7 @@ export const Home = (): JSX.Element => (
             </div>
             <div className="flex flex-row space-x-6">
               <div
-                className="flow-root bg-dark_contrast rounded-lg px-8 pb-8"
+                className="flow-root bg-darkgrey rounded-lg px-8 pb-8"
                 style={{ width: '281px', height: '250px' }}
               >
                 <div className="-mt-16 mx-auto text-center">
@@ -196,7 +196,7 @@ export const Home = (): JSX.Element => (
                   <h3 className="mt-2 text-lg font-semibold text-white tracking-tight">
                     Point Of Sale
                   </h3>
-                  <p className="mt-2 text-sm text-gray-500">
+                  <p className="mt-2 text-sm text-grey">
                     Deploy your own Point-Of-Sale and start accepting tokens.
                   </p>
                   <div className="rounded-md shadow-lg mt-4">
@@ -212,7 +212,7 @@ export const Home = (): JSX.Element => (
             </div>
             <div className="flex flex-row space-x-6">
               <div
-                className="flow-root bg-dark_contrast rounded-lg px-8 pb-8"
+                className="flow-root bg-darkgrey rounded-lg px-8 pb-8"
                 style={{ width: '281px', height: '250px' }}
               >
                 <div className="-mt-16 mx-auto text-center">
@@ -222,7 +222,7 @@ export const Home = (): JSX.Element => (
                   <h3 className="mt-2 text-lg font-semibold text-white tracking-tight">
                     Stake
                   </h3>
-                  <p className="mt-2 text-sm text-gray-500">
+                  <p className="mt-2 text-sm text-grey">
                     Enter the the dApp and support the network with your tokens.
                   </p>
                   <div className="rounded-md shadow-lg mt-4">
@@ -257,7 +257,7 @@ export const Home = (): JSX.Element => (
               className="hover:shadow-blue-glow"
             >
               <div
-                className="flow-root bg-gray-300 rounded-lg px-8 py-8"
+                className="flow-root bg-white rounded-lg px-8 py-8"
                 style={{ width: '200px' }}
               >
                 <div className="mx-auto text-center">
@@ -271,10 +271,7 @@ export const Home = (): JSX.Element => (
                   >
                     Discord
                   </h3>
-                  <p
-                    style={{ color: '#7289da' }}
-                    className="mt-2 text-sm text-gray-500"
-                  >
+                  <p style={{ color: '#7289da' }} className="mt-2 text-sm">
                     Join the conversation with the Polis community
                   </p>
                 </div>
@@ -285,7 +282,7 @@ export const Home = (): JSX.Element => (
               className="hover:shadow-blue-glow"
             >
               <div
-                className="flow-root bg-gray-300 rounded-lg px-8 py-8"
+                className="flow-root bg-white rounded-lg px-8 py-8"
                 style={{ width: '200px' }}
               >
                 <div className="mx-auto text-center">
@@ -299,10 +296,7 @@ export const Home = (): JSX.Element => (
                   >
                     Telegram
                   </h3>
-                  <p
-                    style={{ color: '#0088CC' }}
-                    className="mt-2 text-sm text-gray-500"
-                  >
+                  <p style={{ color: '#0088CC' }} className="mt-2 text-sm">
                     Engage the conversation with the community
                   </p>
                 </div>
@@ -313,7 +307,7 @@ export const Home = (): JSX.Element => (
               className="hover:shadow-blue-glow"
             >
               <div
-                className="flow-root bg-gray-300 rounded-lg px-8 py-8"
+                className="flow-root bg-white rounded-lg px-8 py-8"
                 style={{ width: '200px' }}
               >
                 <div className="mx-auto text-center">
@@ -327,10 +321,7 @@ export const Home = (): JSX.Element => (
                   >
                     Twitter
                   </h3>
-                  <p
-                    style={{ color: '#1da1f2' }}
-                    className="mt-2 text-sm text-gray-500"
-                  >
+                  <p style={{ color: '#1da1f2' }} className="mt-2 text-sm">
                     Follow us on twitter to get the latest news
                   </p>
                 </div>

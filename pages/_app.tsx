@@ -7,7 +7,6 @@ import Head from 'next/head'
 import React from 'react'
 
 function MyApp({ Component, pageProps }): JSX.Element {
-
   return (
     <React.Fragment>
       <Head>
@@ -79,7 +78,7 @@ function MyApp({ Component, pageProps }): JSX.Element {
           content="Join the payments revolution with our EVM powered network and community"
         />
       </Head>
-        <Component {...pageProps} />
+      <Component {...pageProps} />
     </React.Fragment>
   )
 }
