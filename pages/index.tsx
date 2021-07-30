@@ -23,14 +23,14 @@ export const Home = (): JSX.Element => (
             <div className="rounded-md shadow-lg">
               <a
                 href="#start"
-                className="bg-contrast-500 text-white w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md"
+                className="bg-contrast-500 hover:bg-contrast-800 text-white w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md"
               >
                 Learn more
               </a>
             </div>
           </div>
           <div className="absolute w-5/6 left-1/2 transform -translate-x-1/2 grid grid-flow-col lg:grid-cols-4 lg:grid-rows-1 grid-rows-2 grid-cols-2 my-5 lg:my-20 gap-5 lg:gap-10">
-            <div className="text-center rounded-lg bg-darkgrey-500 bg-opacity-80">
+            <div className="text-center rounded-lg bg-darkgrey-500 bg-opacity-80 hover:bg-opacity-100">
               <div className="my-5 lg:my-10">
                 <p className="text-white text-2xl lg:text-4xl">$0.56</p>
                 <p className="text-grey-500 text-sm uppercase font-bold mt-1">
@@ -38,7 +38,7 @@ export const Home = (): JSX.Element => (
                 </p>
               </div>
             </div>
-            <div className="text-center rounded-lg bg-darkgrey-500 bg-opacity-80">
+            <div className="text-center rounded-lg bg-darkgrey-500 bg-opacity-80 hover:bg-opacity-100">
               <div className="my-5 lg:my-10">
                 <p className="text-white text-2xl lg:text-4xl">12,493</p>
                 <p className="text-grey-500 text-sm uppercase font-bold mt-1">
@@ -46,7 +46,7 @@ export const Home = (): JSX.Element => (
                 </p>
               </div>
             </div>
-            <div className="text-center rounded-lg bg-darkgrey-500 bg-opacity-80">
+            <div className="text-center rounded-lg bg-darkgrey-500 bg-opacity-80 hover:bg-opacity-100">
               <div className="my-5 lg:my-10">
                 <p className="text-white text-2xl lg:text-4xl">200,000</p>
                 <p className="text-grey-500 text-sm uppercase font-bold mt-1">
@@ -54,7 +54,7 @@ export const Home = (): JSX.Element => (
                 </p>
               </div>
             </div>
-            <div className="text-center rounded-lg bg-darkgrey-500 bg-opacity-80">
+            <div className="text-center rounded-lg bg-darkgrey-500 bg-opacity-80 hover:bg-opacity-100">
               <div className="my-5 lg:my-10">
                 <p className="text-white text-2xl lg:text-4xl">545</p>
                 <p className="text-grey-500 text-sm uppercase font-bold mt-1">
