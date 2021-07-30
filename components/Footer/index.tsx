@@ -25,22 +25,13 @@ export default function Footer(): JSX.Element {
                 to start accepting cryptocurrencies easily and securely.
               </div>
               <div className="flex space-x-6 md:order-2 ml-2 mt-4 ">
-                <a
-                  href="https://polischain.medium.com/"
-                  className="text-white"
-                >
+                <a href="https://polischain.medium.com/" className="text-white">
                   <i className="fab fa-2x fa-medium text-white" />
                 </a>
-                <a
-                  href="https://twitter.com/PolisChain"
-                  className="text-white"
-                >
+                <a href="https://twitter.com/PolisChain" className="text-white">
                   <i className="fab fa-2x fa-twitter text-white" />
                 </a>
-                <a
-                  href="https://github.com/polischain"
-                  className="text-white"
-                >
+                <a href="https://github.com/polischain" className="text-white">
                   <i className="fab fa-2x fa-github text-white" />
                 </a>
               </div>
