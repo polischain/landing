@@ -93,7 +93,7 @@ export const Home = (): JSX.Element => (
                 </p>
                 <div className="rounded-md shadow-lg mt-4">
                   <a
-                    href="https://athene.polis.tech"
+                    href="https://athene-explorer.polis.tech"
                     className="bg-contrast-500 text-white w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md"
                   >
                     Explore
@@ -113,7 +113,7 @@ export const Home = (): JSX.Element => (
                 <p className="mt-2 text-base text-grey-500">Testing network</p>
                 <div className="rounded-md shadow-lg mt-4">
                   <a
-                    href="https://sparta.polis.tech"
+                    href="https://sparta-explorer.polis.tech"
                     className="bg-contrast-500 text-white w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md"
                   >
                     Explore
