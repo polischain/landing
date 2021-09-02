@@ -61,9 +61,10 @@ export function Home(): JSX.Element {
                   </p>
                   <div className="rounded-md shadow-lg mt-4">
                     <a
-                      className="bg-contrast-200 text-white w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md"
+                      href="https://explorer.polis.tech"
+                      className="bg-contrast-500 text-white w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md"
                     >
-                      Coming Soon
+                      Explore
                     </a>
                   </div>
                 </div>
