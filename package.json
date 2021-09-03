@@ -1,11 +1,11 @@
 {
-  "name": "polis-landing",
+  "name": "@polischain/landing",
   "license": "MIT",
   "scripts": {
     "gen": "pwa-asset-generator ./public/logo.svg --opaque false --manifest ./public/manifest.json --index ./public/index.html -f -w -p --type png public/",
     "build:tailwind": "tailwind build -i styles/index.css -o styles/tailwind.css",
-    "start:dev": "next dev",
-    "start": "node server.js",
+    "dev": "next dev",
+    "start": "next start",
     "build": "next build",
     "type-check": "tsc --pretty --noEmit",
     "format": "prettier --write .",
