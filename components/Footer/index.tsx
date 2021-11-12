@@ -43,34 +43,39 @@ export default function Footer(): JSX.Element {
               <ul className="mt-4 space-y-4">
                 <li>
                   <a
-                    href="https://shop.polispay.com"
-                    className="text-base text-grey-400 hover:text-white text-bold"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="opacity-50 text-base text-grey-400 hover:text-white text-bold"
                   >
-                    Shop
+                    Shop (Coming soon)
                   </a>
                 </li>
                 <li>
                   <a
-                    href="https://pos.polispay.com"
-                    className="text-base text-grey-400 hover:text-white text-bold"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="opacity-50 text-base text-grey-400 hover:text-white text-bold"
                   >
-                    Point of Sale
+                    Point of Sale (Coming soon)
                   </a>
                 </li>
                 <li>
                   <a
-                    href="https://polispay.com"
-                    className="text-base text-grey-400 hover:text-white text-bold"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="opacity-50 text-base text-grey-400 hover:text-white text-bold"
                   >
-                    Wallet
+                    Wallet (Coming soon)
                   </a>
                 </li>
                 <li>
                   <a
-                    href="https://stake.polis.tech/"
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://explorer.polis.tech/validators"
                     className="text-base text-grey-400 hover:text-white text-bold"
                   >
-                    Stake Dapp
+                    Stake Polis
                   </a>
                 </li>
               </ul>
@@ -82,6 +87,8 @@ export default function Footer(): JSX.Element {
               <ul className="mt-4 space-y-4">
                 <li>
                   <a
+                    target="_blank"
+                    rel="noreferrer"
                     href="https://doc.polis.tech"
                     className="text-base text-grey-400 hover:text-white"
                   >
@@ -90,6 +97,8 @@ export default function Footer(): JSX.Element {
                 </li>
                 <li>
                   <a
+                    target="_blank"
+                    rel="noreferrer"
                     href="https://discord.gg/MjNZDNj"
                     className="text-base text-grey-400 hover:text-white"
                   >
@@ -98,10 +107,12 @@ export default function Footer(): JSX.Element {
                 </li>
                 <li>
                   <a
-                    href="https://forum.polis.tech"
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://t.me/PolisPayOfficial"
                     className="text-base text-grey-400 hover:text-white"
                   >
-                    Forum
+                    Telegram
                   </a>
                 </li>
               </ul>
