@@ -45,27 +45,27 @@ export default function Footer(): JSX.Element {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    className="opacity-50 text-base text-grey-400 hover:text-white text-bold"
+                    className="opacity-50 text-base text-grey-400 text-bold"
                   >
-                    Shop (Coming soon)
+                    Shop
                   </a>
                 </li>
                 <li>
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    className="opacity-50 text-base text-grey-400 hover:text-white text-bold"
+                    className="opacity-50 text-base text-grey-400 text-bold"
                   >
-                    Point of Sale (Coming soon)
+                    Point of Sale
                   </a>
                 </li>
                 <li>
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    className="opacity-50 text-base text-grey-400 hover:text-white text-bold"
+                    className="opacity-50 text-base text-grey-400 text-bold"
                   >
-                    Wallet (Coming soon)
+                    Wallet
                   </a>
                 </li>
                 <li>
