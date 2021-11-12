@@ -41,13 +41,26 @@ export default function Navbar(): JSX.Element {
           >
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
               <li className="flex items-center text-white text-md my-3">
-                <a href="https://doc.polis.tech" rel="noopener noreferrer">
-                  <span className="inline-block ml-4">Documentation</span>
+                <a
+                  href="https://doc.polis.tech"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span className="inline-block ml-4">DOCUMENTATION</span>
                 </a>
               </li>
               <li className="flex items-center text-white text-md my-3">
                 <a href="#about">
-                  <span className="inline-block ml-4">About</span>
+                  <span className="inline-block ml-4">ABOUT</span>
+                </a>
+              </li>
+              <li className="flex items-center text-white text-md my-3">
+                <a
+                  href="https://ecosystem.polis.tech"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span className="inline-block ml-4">ECOSYSTEM</span>
                 </a>
               </li>
             </ul>

@@ -1,9 +1,8 @@
 import Navbar from '../components/NavBar'
-import React  from 'react'
+import React from 'react'
 import Footer from '../components/Footer'
 
 export function Home(): JSX.Element {
-
   return (
     <>
       <Navbar />
@@ -22,12 +21,22 @@ export function Home(): JSX.Element {
               </div>
             </div>
             <div className="w-5/6 pt-5 sm:flex sm:justify-center mx-auto">
-              <div className="rounded-md shadow-lg">
+              <div className="m-2 rounded-md shadow-lg">
                 <a
                   href="#start"
-                  className="bg-contrast-500 hover:bg-contrast-800 text-white w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md"
+                  className="bg-primary-500 hover:bg-primary-600 text-white w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md"
                 >
                   Learn more
+                </a>
+              </div>
+              <div className="m-2 rounded-md shadow-lg">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://ecosystem.polis.tech"
+                  className="bg-contrast-500 hover:bg-contrast-800 text-white w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md"
+                >
+                  Start Exploring
                 </a>
               </div>
             </div>
@@ -78,9 +87,7 @@ export function Home(): JSX.Element {
                   <h3 className="mt-2 text-4xl font-semibold text-white tracking-tight">
                     Sparta
                   </h3>
-                  <p className="mt-2 text-base text-grey-500">
-                    Test network
-                  </p>
+                  <p className="mt-2 text-base text-grey-500">Test network</p>
                   <div className="rounded-md shadow-lg mt-4">
                     <a
                       href="https://sparta-explorer.polis.tech"
@@ -119,10 +126,36 @@ export function Home(): JSX.Element {
                       products.
                     </p>
                     <div className="rounded-md shadow-lg mt-4">
-                      <a
-                        className="bg-gradient-to-r from-secondary-500 to-primary-500 bg-opacity-80 text-white w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md"
-                      >
+                      <a className="opacity-50 cursor-not-allowed bg-gradient-to-r from-secondary-500 to-primary-500 bg-opacity-80 text-white w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md">
                         Coming Soon
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="flex flex-row space-x-6">
+                <div
+                  className="flow-root bg-darkgrey-500 rounded-lg px-8 pb-8"
+                  style={{ width: '281px', height: '250px' }}
+                >
+                  <div className="-mt-16 mx-auto text-center">
+                    <div className="inline-flex items-center justify-center rounded-full shadow-lg relative overflow-hidden circle-gradient">
+                      <i className="text-white fas fa-3x fa-coins" />
+                    </div>
+                    <h3 className="mt-2 text-lg font-semibold text-white tracking-tight">
+                      Stake
+                    </h3>
+                    <p className="mt-2 text-sm text-grey-500">
+                      Support the network with your tokens.
+                    </p>
+                    <div className="rounded-md shadow-lg mt-4">
+                      <a
+                        rel="noreferrer"
+                        target="_blank"
+                        href="https://explorer.polis.tech/validators"
+                        className="bg-gradient-to-r from-secondary-500 to-primary-500 text-white w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md"
+                      >
+                        Stake
                       </a>
                     </div>
                   </div>
@@ -144,9 +177,7 @@ export function Home(): JSX.Element {
                       Get the mobile wallet to store your tokens safely.
                     </p>
                     <div className="rounded-md shadow-lg mt-4">
-                      <a
-                        className="bg-gradient-to-r from-secondary-500 to-primary-500 text-white w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md"
-                      >
+                      <a className="opacity-50 cursor-not-allowed bg-gradient-to-r from-secondary-500 to-primary-500 text-white w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md">
                         Coming Soon
                       </a>
                     </div>
@@ -169,35 +200,7 @@ export function Home(): JSX.Element {
                       Deploy your own Point-Of-Sale and start accepting tokens.
                     </p>
                     <div className="rounded-md shadow-lg mt-4">
-                      <a
-                        className="bg-gradient-to-r from-secondary-500 to-primary-500 text-white w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md"
-                      >
-                        Coming Soon
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="flex flex-row space-x-6">
-                <div
-                  className="flow-root bg-darkgrey-500 rounded-lg px-8 pb-8"
-                  style={{ width: '281px', height: '250px' }}
-                >
-                  <div className="-mt-16 mx-auto text-center">
-                    <div className="inline-flex items-center justify-center rounded-full shadow-lg relative overflow-hidden circle-gradient">
-                      <i className="text-white fas fa-3x fa-coins" />
-                    </div>
-                    <h3 className="mt-2 text-lg font-semibold text-white tracking-tight">
-                      Stake
-                    </h3>
-                    <p className="mt-2 text-sm text-grey-500">
-                      Enter the the dApp and support the network with your
-                      tokens.
-                    </p>
-                    <div className="rounded-md shadow-lg mt-4">
-                      <a
-                        className="bg-gradient-to-r from-secondary-500 to-primary-500 text-white w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md"
-                      >
+                      <a className="opacity-50 cursor-not-allowed bg-gradient-to-r from-secondary-500 to-primary-500 text-white w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md">
                         Coming Soon
                       </a>
                     </div>
