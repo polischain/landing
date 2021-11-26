@@ -39,6 +39,16 @@ export function Home(): JSX.Element {
                   Start Exploring
                 </a>
               </div>
+              <div className="m-2 rounded-md shadow-lg">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://hadesswap.finance"
+                  className="bg-secondary-500 hover:bg-secondary-800 text-white w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md"
+                >
+                  Trade now
+                </a>
+              </div>
             </div>
           </div>
         </div>

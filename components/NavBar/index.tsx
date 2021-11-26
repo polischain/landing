@@ -63,6 +63,15 @@ export default function Navbar(): JSX.Element {
                   <span className="inline-block ml-4">ECOSYSTEM</span>
                 </a>
               </li>
+              <li className="flex items-center text-white text-md my-3">
+                <a
+                  href="https://hadesswap.finance"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span className="inline-block ml-4">TRADE</span>
+                </a>
+              </li>
             </ul>
           </div>
         </div>
